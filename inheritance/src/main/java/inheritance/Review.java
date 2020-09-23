@@ -14,5 +14,8 @@ public class Review {
 
     public String toString() {
         return String.format("body: " + body + " ,author: " + author + " ,stars:" + stars);
+    }public int getStars() {
+        return this.stars;
     }
+
 }

@@ -1,9 +1,6 @@
-###Code Challenge 6
-##Add an append challenge to  LinkedList class that takes a value and adds it at the end of the LinkedList.
+###Inheritance Lab
+This library includes a Reviewable interface, a Location superclass that implements it, various subclasses of Location, and a Review class. A Location will keep track of which reviews are for itself as well as each review holds a pointer to the Location it is for. Reviews can be added upon instantiation or later on using the Location's addReview method.
 
-##Add an insertBefore method  to  LinkedList class that takes in a value and newValue, and inserts a new Node before the Node that contains the given value.
+T###esting
+All test for this library can be run in the terminal by running ./gradlew test.
 
-##Add an insertAfter method to LinkedList class that takes in a value and newValue, and inserts a new Node after the Node that contains the given value.
-
-##Approach and Efficiency
-The approach for all these methods involves iterating over the Nodes in the Linked List until reaching the given position where the new Node needs to be inserted. The new Node is then created and inserted into the list by updating other Nodes next value where necessary. .
